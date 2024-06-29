@@ -21,4 +21,18 @@
  - Tag ? Type of Tag  
  - Attribute
  - Element And Contant
- - debuging
+ - debuging: [validesion](https://validator.w3.org/nu/#file)
+ 9. Heading Pragraph line Brack Horizantal Rule
+ 10. Semantic tag And Non Semantric Tag HTML
+ - sematroc tag: Header, Footer, form, Tabel, nav Main, Tag
+
+ - Non sematric tag: Div, span Ets
+ 11. Texts Formeting Tags
+
+ 12. List
+ 13. Tabel 
+ 14. Form 
+ 15. Link
+ 16. Deply 
+
+
