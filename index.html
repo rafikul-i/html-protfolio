@@ -4,6 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Protfolio</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Fond awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body{
+            font-family: "Roboto", sans-serif;
+        }
+    </style>
 </head>
 <body>
     <nav>
@@ -40,7 +53,8 @@
                 </ul>
             </li>
         </ol>
-        <h2>Extra Skill</h2>
+        <h2>Skill Expreriac</h2>
+
         <table border ="1" cellpadding="5" cellspacing="0">
             <thead>
                 <tr>
@@ -65,17 +79,46 @@
                 </tr>
             </thead>
           </table>
+         <div>
+            <h3>Skill Progress</h3>
+            <div>
+              <label for="html">HTML :</label>
+              <progress id="html" value="90" max="100">90%</progress>
+            </div>
+            <div>
+              <label for="css">CSS :</label>
+              <progress id="css" value="80" max="100">80%</progress>
+            </div>
+            <div>
+              <label for="js">Javascript :</label>
+              <progress id="js" value="50" max="100">50%</progress>
+            </div>
+         </div>
+         <div>
+            <h3>Experience Level</h3>
+            <label for="experincelevel">Experince :</label>
+            <meter min="0" max="10" value="5" id="experincelevel">5 years</meter>
+         </div>
      </section>
     
     <!-- Section: Project -->
      <section id="project">
         <h2>My Project</h2>
+        <ol>
+            <li>E-comase</li>
+            <li>Protfolio</li>
+            <li>Color Pickar</li>
+        </ol>
+        <h3>Project Imessag</h3>
         <img src="./imegas/project.jpg" alt="project" height="250px" />
+        <img src="./imegas/project1.jpg" alt="project" height="250px" />
+        <img src="./imegas/project2.jpg" alt="project" height="250px" width="200px" />
      </section>  
     <!-- Section: contact -->  
      <section id="contact">
         <h2>Contact Me</h2>
-        <form action="#">
+        <form action="https://formspree.io/f/xpwazdol"
+        method="POST">
            <div>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
@@ -85,9 +128,23 @@
             <input type="email" id="email" name="email" required>
            </div>
            <div>
-            <label for="mgs">message:</label>
-            <textarea name="mgs" id="mgs"></textarea>
+            <label for="color">Color :</label>
+            <input type="color" name="color" id="color">
            </div>
+            <div>
+                <label for="proivicy">prochocy:</label>
+                <select name="proivicy" id="proivicy">
+                    <option value="jab">jab</option>
+                    <option value="prasonal">Inquery</option>
+                    <option value="prasonal">Parsonal</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="mgs">message:</label>
+            <textarea name="mgs" id="mgs"></textarea>
+            </div>
+            
+        
            <div>
             <button type="submit">Submit</button>
             <button type="reset">Reset</button>
@@ -97,6 +154,18 @@
      <footer>
        
         <p>Copy Right &copy;<span>By Rafikul 2024</span> <a href="tel:01569112107">Coll Me</a> <a href="mailto:mdrafikul0156@email.com">mdrafikul0156@email.com</a></p>
+        <p>Developed Whith &hearts;</p>
+        <div>
+            <h3>Follow Me</h3>
+            <ol>
+                <li><a href="https://www.facebook.com/Rafikul910"><i class="fa-brands fa-facebook"></i> facbook page</a></li>
+                <li><a href="https://www.youtube.com/watch?v=gsVT8_KXnxc&t=4200s"><i class="fa-brands fa-youtube"></i> Youtube</a></li>
+            </ol>
+           
+           <div>
+            <iframe title="FULBARI" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48267.7356596573!2d89.55602578533745!3d25.95095098491515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e2c3559b0cc87d%3A0x99d1d5aa6dcf6c41!2sPhulbari!5e0!3m2!1sen!2sbd!4v1719946561534!5m2!1sen!2sbd" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" >Fulbari</iframe>
+           </div>
+        </div>
      </footer>
 </body>
 </html>

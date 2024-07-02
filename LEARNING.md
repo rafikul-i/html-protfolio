@@ -1,5 +1,5 @@
 # Learning HTML
-
+## Besic HTML
 1. How Website Working ?
 
 - client server model
@@ -56,3 +56,11 @@
 14. Form
 15. Link
 16. Deply
+
+## Intermediate HTML
+- met tag and SEO
+- ADDing font-awesome icone  And  Google font
+- Advanced Table 
+- form data send to your email [Formspree](https://formspree.io/forms/xeojqgpa/integration)
+- multiedia 
+- html5 element 
