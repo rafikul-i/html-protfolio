@@ -64,3 +64,4 @@
 - form data send to your email [Formspree](https://formspree.io/forms/xeojqgpa/integration)
 - multiedia 
 - html5 element 
+- Deploy in netlify.com 
