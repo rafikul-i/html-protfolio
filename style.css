@@ -71,4 +71,9 @@ body{
 .titie-img{
     flex: 0 0 40% ;
     max-width: 40%;
+   
+}
+.titel_imgs{
+    border-radius: 50%;
+    width: 70%;
 }
