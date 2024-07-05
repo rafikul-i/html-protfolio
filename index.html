@@ -19,153 +19,126 @@
 
 </head>
 <body>
-    <div class="continer">
-        <nav class="navbar">
-            <div class="navbar-brand">
-               <a href="#"> <h3>Rafikul</h3></a>
-            </div>
-          <div class="navbar-itms">
-            <ul class="naver-items">
-                <li class="navbar-list"><a class="navbar-link" href="#intro">Home</a></li>
-                <li class="navbar-list"><a class="navbar-link" href="#about">About Me</a></li>
-                <li class="navbar-list"><a class="navbar-link" href="#project">Project</a></li>
-                <li class="navbar-list"><a class="navbar-link" href="#contac">Contrac Me</a></li>
-                
-            </ul>
-          </div>
-        </nav>
-        <header class="intro">
-            <div class="titel">
-                <h1>Md Rafikul Islam</h1>
-            <p><em>I ma a Diploma Engineer Computer Tecnology</em></p>
-            </div>
-            <div class="titie-img">
-                <img src="./imegas/1p.jpg" alt="rafikul" class="titel_imgs">
-            </div>
-            <hr />
-        </header>
-        <!-- Section: About -->
-         <section id="about">
-             <h2>About Me</h2>
-             <p><strong>Experience:</strong> 3 years Web design Experience</p>
-             <p><strong>Education:</strong> Diploma Engineer Computer Tecnology</p>
-         </section>  
-         <!--section: Skill -->
-         <section id="skills">
-            <h2>Skill</h2>
-            <ol>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript
-                    <ul>
-                        <li>React.js</li>
-                        <li>node.js</li>
-                    </ul>
-                </li>
-            </ol>
-            <h3>Skill Experience</h3>
-    
-            <table border ="1" cellpadding="10" cellspacing="0">
-                <thead>
-                    <tr>
-                        <th>Tecnology</th>
-                        <th>Proficiency</th>
-                    </tr>
-                    <tr>
-                        <td>HTML</td>
-                        <td>Advance</td>
-                    </tr>
-                    <tr>
-                        <td>CSS</td>
-                        <td>Intermediat</td>
-                    </tr>
-                    <tr>
-                        <td>Javascript</td>
-                        <td>Learning</td>
-                    </tr>
-                    <tr>
-                        <td>C</td>
-                        <td>Besic</td>
-                    </tr>
-                </thead>
-              </table>
-             <div>
-                <h3>Skill Progress</h3>
-                <div>
-                  <label for="html">HTML :</label>
-                  <progress id="html" value="90" max="100">90%</progress>
-                </div>
-                <div>
-                  <label for="css">CSS :</label>
-                  <progress id="css" value="80" max="100">80%</progress>
-                </div>
-                <div>
-                  <label for="js">Javascript :</label>
-                  <progress id="js" value="50" max="100">50%</progress>
-                </div>
-             </div>
-             <div>
-                <h3>Experience Level</h3>
-                <label for="experincelevel">Experince :</label>
-                <meter min="0" max="10" value="5" id="experincelevel">5 years</meter>
-             </div>
-         </section>
-        
-        <!-- Section: Project -->
-         <section id="project">
-            <h2>My Project</h2>
-            <ol>
-                <li>E-comase</li>
-                <li>Protfolio</li>
-                <li>Color Pickar</li>
-            </ol>
-            <h3>Project Imessag</h3>
-            <img src="./imegas/project.jpg" alt="project" height="250px" />
-            <img src="./imegas/project1.jpg" alt="project" height="250px" />
-            <img src="./imegas/project2.jpg" alt="project" height="250px" width="200px" />
-         </section>  
-        <!-- Section: contact -->  
-         <section id="contact">
-            <h2>Contact Me</h2>
-            <form action="https://formspree.io/f/xpwazdol"
-            method="POST">
-               <div>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-               </div>
-               <div>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-               </div>
-               <div>
-                <label for="color">Color :</label>
-                <input type="color" name="color" id="color">
-               </div>
-                <div>
-                    <label for="proivicy">prochocy:</label>
-                    <select name="proivicy" id="proivicy">
-                        <option value="jab">jab</option>
-                        <option value="prasonal">Inquery</option>
-                        <option value="prasonal">Parsonal</option>
-                    </select>
-                </div><br>
-                <div>
-                    <label for="mgs">message:</label>
-                <textarea name="mgs" id="mgs"></textarea>
-                </div>
-                
+ <header>
+       
+    <nav class="navbar">
+        <div class="navbar-brand">
+           <a href="#"> <h3>Rafikul</h3></a>
+        </div>
+      <div class="navbar-itms">
+        <ul class="naver-items">
+            <li class="navbar-list"><a class="navbar-link" href="#intro">Home</a></li>
+            <li class="navbar-list"><a class="navbar-link" href="#about">About Me</a></li>
+            <li class="navbar-list"><a class="navbar-link" href="#project">Project</a></li>
+            <li class="navbar-list"><a class="navbar-link" href="#contac">Contrac Me</a></li>
             
-               <div>
-                <button type="submit">Submit</button>
-                <button type="reset">Reset</button>
-               </div>
-            </form>
-         </section>
+        </ul>
+      </div>
+    </nav>
+ </header>
+             <!-- Section: About -->
+ <main>
+    <section id="intro" class="card">
+        <h1>Md Rafikul Islam</h1>
+        <p><em>I ma a Diploma Engineer Computer Tecnology</em></p>
+    </section>
+    <section id="about" class="card">
+        <h2>About Me</h2>
+        <div class="titie-img">
+           <img src="./imegas/1p.jpg" alt="rafikul" class="titel_imgs">
+       </div>
+        <p><strong>Experience:</strong> 3 years Web design Experience</p>
+        <p><strong>Education:</strong> Diploma Engineer Computer Tecnology</p>
+    </section>  
+    <!--section: Skill -->
+    <section id="skills" class="card">
+       <h2>Skill</h2>
+       <ol>
+           <li>HTML</li>
+           <li>CSS</li>
+           <li>Javascript</li>
+       </ol>
+       <h3>Skill Experience</h3>
+
+       <table>
+           <thead>
+               <tr>
+                   <th>Tecnology</th>
+                   <th>Proficiency</th>
+               </tr>
+               <tr>
+                   <td>HTML</td>
+                   <td>Advance</td>
+               </tr>
+               <tr>
+                   <td>CSS</td>
+                   <td>Intermediat</td>
+               </tr>
+               <tr>
+                   <td>Javascript</td>
+                   <td>Learning</td>
+               </tr>
+               <tr>
+                   <td>C</td>
+                   <td>Besic</td>
+               </tr>
+           </thead>
+         </table>
+        
+            </section>
+   
+   <!-- Section: Project -->
+    <section id="project" class="card">
+       <h2>My Project</h2>
+       <ol>
+           <li>E-comase</li>
+           <li>Protfolio</li>
+           <li>Color Pickar</li>
+       </ol>
+       <h3>Project Imessag</h3>
+       <img src="./imegas/project.jpg" alt="project" height="250px" />
+       <img src="./imegas/project1.jpg" alt="project" height="250px" />
+       <img src="./imegas/project2.jpg" alt="project" height="250px" width="200px" />
+    </section>  
+   <!-- Section: contact -->  
+    <section id="contact" class="card">
+       <h2>Contact Me</h2>
+       <form action="https://formspree.io/f/xpwazdol"
+       method="POST">
+          <div>
+           <label for="name">Name:</label>
+           <input type="text" id="name" name="name" required>
+          </div>
+          <div>
+           <label for="email">Email:</label>
+           <input type="email" id="email" name="email" required>
+          </div>
+           <div>
+               <label for="proivicy">Subject: </label>
+               <select name="proivicy" id="proivicy">
+                   <option value="jab">jab</option>
+                   <option value="prasonal">Inquery</option>
+                   <option value="prasonal">Parsonal</option>
+               </select>
+           </div><br>
+           <div>
+               <label for="mgs">message:</label>
+           <textarea name="mgs" id="mgs" cols="10" rows="10"></textarea>
+           </div>
+           
+       
+          <div>
+           <button type="submit">Submit</button>
+           <button type="reset">Reset</button>
+          </div>
+       </form>
+    </section>
+ </main>
          <footer>
            
             <p>Copy Right &copy;<span>By Rafikul 2024</span> <a href="tel:01569112107">Coll Me</a> <a href="mailto:mdrafikul0156@email.com">mdrafikul0156@email.com</a></p>
             <p>Developed Whith &hearts;</p>
-            <div>
+            <div class="sosal-media">
                 <h3>Follow Me</h3>
                 <ol>
                     <li><a href="https://www.facebook.com/Rafikul910"><i class="fa-brands fa-facebook"></i> facbook page</a></li>
@@ -178,6 +151,5 @@
                </div>
             </div>
          </footer>
-    </div>
 </body>
 </html>
