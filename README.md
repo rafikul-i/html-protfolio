@@ -4,8 +4,8 @@
 ### Deploy in netlify.com 
 
 
-[Visit My Websit][https://rafikul-islam.netlify.app/]
 
+[Visit My Websit](https://rafikul-islam.netlify.app/)
 ## CSS Besic 
 ### what is css ?
 - css is cascating style sheet and web page design 
@@ -34,4 +34,19 @@ a[href]{
 
 ## Intermediad css
 - Backgraound propertics 
+```css:
+.intro{
+   background:  url(/imegas/cover-3.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+```
 - basic leyout -> float, position, flex, grid 
+- display propertic -> inlene, inline-block, block
+- transition 
+- animation 
+
+## Imessag link
+[unsplash.com](https://unsplash.com/)
