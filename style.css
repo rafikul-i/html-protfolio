@@ -123,11 +123,30 @@ main{
 .intro__titlr{
     color: #fff;
     letter-spacing: .4rem;
+    font-size: 2rem;
 }
 .intro__description{
     color: #fff;
     font-size: 1.5rem;
     letter-spacing: .3rem;
+}
+#about{
+    text-align: center;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 2rem;
+}
+.about__discriptio p {
+ text-align: left;
+    
+}
+.about__discriptio p strong{
+    color: #333333;
+    font-size:1.2rem;
+    font-weight: 700;
 }
 table{
 width: 95%;
@@ -177,7 +196,73 @@ footer p a{
 }
 .sosal-media h3{
     color: var(--secondery-color);
+
 }
 
 /* footer end here */
+
+/* Responcevnes Start here */
+    
+@media screen and (max-width:1200px) {
+   
+}
+@media screen and (max-width:900px) {
+    
+}
+@media screen and (max-width:700px) {
+    header{
+    background: none;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem .5rem;
+}
+nav ul{
+    flex-direction: column;
+    background: #000;
+
+}
+.intro{
+    background: none;
+    height: 100vh;
+ 
+}
+
+.intro__titlr{
+    color: #333333;
+    letter-spacing: .2rem;
+    font-size: 1.5rem;
+}
+.intro__description{
+    color: #333333;
+    font-size: .9rem;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+nav ul li a{
+    color: var(--secondery-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10.7rem;
+    }
+    nav ul li {
+        margin-top:0.7rem;
+        }
+
+        .about{
+          flex-direction: column;
+        }
+}
+@media screen and (max-width:600px) {
+  
+}
+@media screen and (max-width:350px) {
+    
+}
+/* Responcevnes end here */
 
