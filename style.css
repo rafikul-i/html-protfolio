@@ -236,14 +236,15 @@ main{
 }
 .intro{
     background: none;
-    height: 15vh;
+    height: 35vh;
+    width: 100%;
  
 }
 
 .intro__titlr{
     color: #333333;
     letter-spacing: .2rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 .intro__description{
     color: #333333;
@@ -263,9 +264,24 @@ nav ul li a{
 
         .about{
           flex-direction: column;
+
         }
+        #about, #skills, #project, #contac{
+            
+            width: 100%;
+          }
+          
         img{
             width: 100%;
+        }
+        footer{
+            flex-direction: column;
+            gap: 2rem;
+            text-align: left;
+        
+        }
+        iframe{
+            width:100%;
         }
 }
 @media screen and (max-width:600px) {
