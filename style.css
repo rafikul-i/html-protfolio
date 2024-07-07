@@ -148,6 +148,9 @@ main{
     font-size:1.2rem;
     font-weight: 700;
 }
+#skills{
+    text-align: center;
+}
 table{
 width: 95%;
 border-collapse: collapse;
@@ -211,11 +214,10 @@ footer p a{
 }
 @media screen and (max-width:700px) {
     header{
-    background: none;
     text-align: center;
     width: 100%;
     position: sticky;
-    top: 0;
+    top:0 ;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -224,12 +226,11 @@ footer p a{
 }
 nav ul{
     flex-direction: column;
-    background: #000;
 
 }
 .intro{
     background: none;
-    height: 100vh;
+    height: 15vh;
  
 }
 
@@ -256,6 +257,9 @@ nav ul li a{
 
         .about{
           flex-direction: column;
+        }
+        img{
+            width: 100%;
         }
 }
 @media screen and (max-width:600px) {
