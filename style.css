@@ -228,6 +228,12 @@ nav ul{
     flex-direction: column;
 
 }
+main{
+    width: 100%;
+    margin: auto;
+    padding: 1.2rem;
+
+}
 .intro{
     background: none;
     height: 15vh;
