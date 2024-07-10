@@ -63,9 +63,40 @@ header{
     top: 0;
     display: flex;
     justify-content: space-between;
-    text-align: center;
+    align-items: center;
     padding: 2rem .5rem;
 }
+.menu-icon{
+    position: relative;
+    border: 1px solid #fff;
+    padding: .5rem;
+    display: none;
+}
+.menu__icon{
+    
+    width: 1rem;
+    height: 2px;
+    background: #000;
+}
+.menu__icon::after{
+    position: absolute;
+    content: ' ';
+    top: 3px;
+    left: 8px;
+    width: 1rem;
+    height: 2px;
+    background: #000;
+}
+.menu__icon::before{
+    position: absolute;
+    content: ' ';
+    top: 13px;
+    left: 8px;
+    width: 1rem;
+    height: 2px;
+    background: #000;
+}
+
 nav{
  padding: 0 .5rem;
 }
@@ -152,9 +183,9 @@ main{
     text-align: center;
 }
 table{
-width: 95%;
+width: 100%;
 border-collapse: collapse;
-margin: 0.5rem 1.2rem;
+margin: .5rem 0;
 
 }
 table, th, td{
@@ -164,6 +195,28 @@ table, th, td{
 }
 th{
     background: #f2f2f2;
+}
+#project{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#project h3{
+    margin: 2rem 0;
+}
+
+#project ol li{
+    text-align: left;
+}
+
+#project img{
+    display: inline-block;
+    margin-bottom: 5rem;
+    border-radius: .5rem;
+
 }
 /* Main end here */
 
@@ -193,9 +246,6 @@ footer p a{
 .sosal-media a i{
     display: inline-block;
     margin-top: .5rem;
-
-    
-
 }
 .sosal-media h3{
     color: var(--secondery-color);
@@ -224,15 +274,20 @@ footer p a{
     text-align: center;
     padding: 2rem .5rem;
 }
-nav ul{
-    flex-direction: column;
 
 }
 main{
-    width: 100%;
+    width: 80%;
     margin: auto;
     padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
+.show{
+    display: block;
 }
 .intro{
     background: none;
@@ -283,12 +338,64 @@ nav ul li a{
         iframe{
             width:100%;
         }
-}
+        
+
 @media screen and (max-width:600px) {
-  
+    .hidden{
+        display: none;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav ul li a{
+     
+        font-size: 1rem;
+    
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+    
 }
 @media screen and (max-width:350px) {
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+    nav{
+        display: none;
+    }
+    nav ul li a{
+     
+        font-size: .9rem;
     
+    }
+    .intro .intro__titlr{
+        font-size: .8rem;
+        letter-spacing: 0;
+    }
+    .intro__description{
+        font-size: .7rem;
+        letter-spacing: 0;
+
+    }
+    table{
+        width: 100%;
+        margin:0;
+        font-size: .7rem;
+        
+        }
+        #project h2, h3{
+            margin-bottom: .5rem;
+        }
+        #project img{
+            display: inline-block;
+            margin-bottom: 5rem;
+            height: 100px;
+            border-radius: .5rem;
+
+        }
 }
 /* Responcevnes end here */
 

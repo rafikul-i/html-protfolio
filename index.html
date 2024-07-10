@@ -24,8 +24,12 @@
         <a href="#">
              <h3><span>R</span>AFIK</h3>
             </a>
-     </div>
-    <nav class="navbar">
+    </div>
+    <div class="menu-icon" id="menu-icon">
+        <div class="menu__icon"></div>
+    </div>
+    
+    <nav class="hidden" id="navbar">
         
       <div class="navbar-itms">
         <ul class="naver-items">
@@ -50,7 +54,7 @@
         <h2>About Me</h2>
         <div class="about">
             <div class="titie-img">
-                <img src="./imegas/1p.jpg" alt="rafikul" class="titel_imgs">
+                <a href="#"><img src="./imegas/1p.jpg" alt="rafikul" class="titel_imgs"></a>
             </div>
             <div class="about__discriptio">
              <p><strong>Experience:</strong> 3 years Web design Experience</p>
@@ -98,15 +102,17 @@
    <!-- Section: Project -->
     <section id="project" class="card">
        <h2>My Project</h2>
-       <ol>
+       <ol type="1">
            <li>E-comase</li>
            <li>Protfolio</li>
            <li>Color Pickar</li>
        </ol>
        <h3>Project Imessag</h3>
-       <img src="./imegas/project.jpg" alt="project" height="250px" />
-       <img src="./imegas/project1.jpg" alt="project" height="250px" />
-       <img src="./imegas/project2.jpg" alt="project" height="250px" width="200px" />
+       <div class="project-img">
+       <a href="#"> <img src="./imegas/project.jpg" alt="project" height="250px" /></a>
+        <a href="#"><img src="./imegas/project1.jpg" alt="project" height="250px" /></a>
+       <a href="#"> <img src="./imegas/project2.jpg" alt="project" height="250px" width="200px" /></a>
+       </div>
     </section>  
    <!-- Section: contact -->  
     <section id="contac" class="card">
@@ -162,5 +168,6 @@
                </div>
             
          </footer>
+         <script src="app.js"></script>
 </body>
 </html>
